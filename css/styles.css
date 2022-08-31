@@ -33,6 +33,24 @@ body {
   color: var(--fb-black);
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fb-blue: #542eee;
+    --fb-black: #ffffff;
+    --fb-red: #ee2340;
+    --fb-green: #6fcf97;
+    --fb-yellow: #f6b024;
+    --fb-bgcolor: #141432;
+    --fb-white: #ffffff;
+    --fb-whitebg: #1d1d42;
+    --dark-color-text: #ffffff;
+    --light-color-text: #d4d4dc;
+    --button-link: #524eee;
+    --stories-bg: #524eee;
+    --icon-circle-bg: #6fcf97;
+  }
+}
+
 header {
   background: var(--fb-whitebg);
   height: 62px;
